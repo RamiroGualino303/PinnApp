@@ -10,7 +10,6 @@ public class Store extends BasePage {
     private String ButtonViewCart ="//body[1]/header[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[2]/div[1]/p[1]/a[1]/strong[1]";
     private String ButtonCart2 = "//header/div[1]/div[1]/div[3]/div[1]/button[1]";
     private String ButtonRemoveProduct = "//tbody/tr[1]/td[4]/div[1]/span[1]/button[2]";
-    
 
     public Store(){
         super(driver);
