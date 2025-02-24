@@ -12,8 +12,8 @@ import pages.BasePage;
         plugin = { "pretty", "html:target/cucumber-reports" }, // Para Reporte
 
 
-        //tags ="@AddToCart"  //Comentar para ejecutar TC2 
-        tags ="@RemoveFromCart"     //Descomentar para ejecutar TC2
+        tags ="@TC01"  //Comentar para ejecutar TC2 
+        //tags ="@TC02"     //Descomentar para ejecutar TC2
 )
 
 
@@ -26,3 +26,15 @@ public class TestRunner {    //EJECUTAR DESDE TERMINAL 'gradle test' Y GENERA EL
 
     }
 }
+
+/*
+ * Para ejecutar es recomendable tener instalado
+ * JDK - Gradle 
+ * Las extenciones
+ * 1. Java Extension Pack
+ * 2. Gradle For Java
+ * 3. Gradle Language Support
+ * 4.Cucumber
+ * 5.Cucumber (Gherkin)
+ * 6.Snippets And Syntax
+ */

@@ -1,4 +1,4 @@
-@AddToCart
+@TC01
 Feature: Buscar y agregar un producto al carrito
 
   Rule: El usuario debe poder buscar y agregar un producto al carrito exitosamente

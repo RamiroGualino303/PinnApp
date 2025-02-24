@@ -1,4 +1,4 @@
-@RemoveFromCart
+@TC02
 Feature: Gestión de productos en el carrito de compras
 
   Rule: El usuario debe poder buscar, agregar y eliminar productos del carrito de manera exitosa
